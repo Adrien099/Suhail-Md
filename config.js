@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "";
 global.website=process.env.GURL || "" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "◯⃘　     ۫      𝓛ove  th͜e  w𝓪y  yᦅu  𝒍𝒊𝒆  ᮫     ͡꒱" 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.8",
-  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚫𝐃𝐑𝐈𝚵𝚴 』```,
  
-  author : process.env.PACK_AUTHER|| "𒀽  𝝠̶𝐃̸𝐑𝝞꯭⃢𝚵̸̷𝐍  𓂃㒚",
+  author : process.env.PACK_AUTHER|| "𝆺𝅥 𝇁 ֹ 𝄄 س ꓹ 𝚫𝐃𝐑𝐈𝚵𝚴 𓂃🧣",
   packname: process.env.PACK_NAME || "Chori karle..",
   botname : process.env.BOT_NAME  || "ADRIEN_BOT",
-  ownername:process.env.OWNER_NAME|| "ADRIEN",
+  ownername:process.env.OWNER_NAME|| "𝆺𝅥 𝇁 ֹ  𝄄 س ꓹ 𝚫𝐃𝐑𝐈𝚵𝚴 𓂃🧣",
 
 
   errorChat : process.env.ERROR_CHAT || "",
